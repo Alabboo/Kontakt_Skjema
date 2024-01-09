@@ -74,6 +74,7 @@ $con->close();
             echo "<td>{$row['epost']}</td>";
             echo "<td>{$row['navnogetternavn']}</td>";
             echo "<td>{$row['klasse']}</td>";
+            echo "<td>{$row['kommentar']}</td>";
             echo "<td><textarea id='comment_{$row['id']}'></textarea><br>";
             echo "<button onclick='saveComment({$row['id']})'>Save Comment</button></td>";
             echo "</tr>";
