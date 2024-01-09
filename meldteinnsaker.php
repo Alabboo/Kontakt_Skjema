@@ -6,7 +6,7 @@ if ($con->connect_error) {
 }
 
 // Fetch data from the database
-$sql = "SELECT * FROM `data` ORDER BY timestamp DESC";
+$sql = "SELECT * FROM `data` ORDER BY id DESC";
 $result = $con->query($sql);
 
 // Count the number of cases
@@ -21,7 +21,7 @@ $con->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submitted Cases</title>
+    <title>Meldte inn</title>
     <style>
         body {
             font-family: Arial, sans-serif;
