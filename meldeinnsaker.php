@@ -39,20 +39,23 @@
 <body>
 
     <h2>Elvebakken Skademeldingskjema</h2>
-    <form action="connect.php" method="POST">
+    <form action="connect.php" method="post">
+
+        <label for="epost">Epost:</label>
+        <input type="text" id="epost" name="epost" required>
        
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <label for="navnogetternavn">Navn og etternavn:</label>
+        <input type="text" id="navnogetternavn" name="navnogetternavn" required>
 
-        <label for="class">Class:</label>
-        <input type="text" id="class" name="class" required>
+        <label for="klasse">Klasse:</label>
+        <input type="text" id="klasse" name="klasse" required>
 
-        <label for="problem">Problem:</label>
-        <textarea id="problem" name="problem" rows="4" required></textarea>
+        <label for="kommentar">Hva som har skjedd?:</label>
+        <textarea id="text" name="kommentar" rows="4" required></textarea>
 
         
 
-        <inpot type="submit" name="submit" id="submit" />
+        <button type="submit">Send inn</button>
     </form>
 
 </body>

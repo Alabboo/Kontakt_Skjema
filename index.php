@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kontakt Skjema</title>
 </head>
 <style>
     * {
@@ -37,6 +37,10 @@
     }
 </style>
 <body>
-    <h1>Meldte Saker</h1>
+    <br>
+    <br>
+    <h1>Kontakt Skjema</h1>
+    <a href="meldeinnsaker.php"><button>Melde Inn Saker</button></a>
+    <a href="meldteinnsaker.php"><button>Se Meldte Saker</button></a>
 </body>
 </html>
